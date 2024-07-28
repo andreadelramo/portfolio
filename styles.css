@@ -1,0 +1,205 @@
+body {
+  margin: 0%;
+  font-family: inter;
+}
+/* Estilos para la navegación */
+nav {
+  text-transform: uppercase;
+  position: fixed;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espacio entre logo y elementos de navegación */
+  margin-bottom: 80px;
+  padding-left: 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  position: fixed;
+  right: 0;
+  margin-right: 16px;
+}
+
+nav ul li {
+  margin-right: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block; /* todo el li es enlace */
+  color: black;
+  font-size: 16px;
+  line-height: 0.5;
+  border-bottom: 0px solid rgb(255, 255, 255);
+  padding: 12px 0px 14px 0px;
+  transition: ease-in 0.3s;
+}
+
+nav ul li a:hover {
+  color: blue;
+  line-height: 0.5;
+  border-bottom: 2px solid;
+  padding: 12px 0px 12px 0px;
+  transition: ease-in 0.3s;
+}
+.active {
+  color: rgb(149, 149, 149);
+  text-decoration: line-through;
+}
+
+/* Estilos para el logo */
+.logo a {
+  text-decoration: none;
+  display: block; /* todo el li es enlace */
+  color: black;
+  float: left;
+  font-size: 21px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+/* Estilos para las headers*/
+h1 {
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 90px;
+  margin: 120px 10px 40px 10px;
+}
+
+h2 {
+  padding: 16px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 21px;
+  margin-top: 80px;
+}
+.destacado {
+  color: blue;
+}
+.module-project {
+  display: flex;
+}
+
+.menu-project {
+  list-style: none;
+  margin: 0px;
+  padding: 16px 80px 16px 16px;
+  position: sticky;
+  top: 80px;
+}
+/*Módulo de Descricion*/
+.content {
+  padding-left: 20%;
+}
+
+.description {
+  margin: 0px;
+}
+.description p {
+  font-size: 32px;
+  padding: 80px 10% 80px 0px;
+  margin: 0px;
+}
+img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+/*Listado de clientes y actidades*/
+.list {
+  margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list li {
+  text-transform: uppercase;
+  list-style: none;
+  line-height: 1;
+  font-size: 56px;
+}
+.card-list {
+  width: 40%;
+  padding: 40px;
+  border: 1px solid rgb(208, 208, 208);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Proyectos*/
+
+.proyectos img {
+  margin: 0px;
+}
+.proyectos {
+  margin-bottom: 120px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: black;
+  padding: 200px 20px 120px 20px;
+  color: white;
+}
+footer a img {
+  width: 100%;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
+}
+
+.rrss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+}
+footer ul li {
+  margin-right: 16px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  display: block; /* todo el li es enlace */
+  color: white;
+  font-size: 16px;
+  line-height: 0.5;
+  border-bottom: 0px solid rgb(255, 255, 255);
+  padding: 12px 0px 14px 0px;
+  transition: ease-in 0.3s;
+}
+footer ul li a:hover {
+  color: rgb(104, 104, 243);
+  line-height: 0.5;
+  border-bottom: 2px solid;
+  padding: 12px 0px 12px 0px;
+  transition: ease-in 0.3s;
+}
+footer .rrss a {
+  text-decoration: none;
+  display: block; /* todo el li es enlace */
+  color: white;
+  font-size: 16px;
+  line-height: 0.5;
+  border-bottom: 0px solid rgb(255, 255, 255);
+  padding: 12px 0px 14px 0px;
+  transition: ease-in 0.3s;
+}
+footer .rrss a:hover {
+  color: rgb(104, 104, 243);
+  line-height: 0.5;
+  border-bottom: 2px solid;
+  padding: 12px 0px 12px 0px;
+  transition: ease-in 0.3s;
+}
+footer @media (max-width: 700px) {
+  h1 {
+    font-size: 44px;
+  }
+}
